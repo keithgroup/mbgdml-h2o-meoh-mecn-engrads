@@ -1,0 +1,2601 @@
+[
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.182894, -1.394392, 0.241612], [0.007306, -1.519392, -0.704188], [-0.289594, -0.417692, 0.276212], [0.116006, 1.355308, -0.166288], [0.378006, 1.062408, -1.056788], [0.966106, 1.495108, 0.289012]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.000865966996552125, -0.02088188941547239, 0.024385517239340373], [0.004566806638772925, 0.008196063455397664, -0.020397117972754408], [-0.001999311342459755, 0.023633255063699413, -0.00640280784955339], [-0.022734463524364718, -0.001026026799297275, 0.008946624877526576], [0.00341647365500604, -0.011783595119193446, -0.015833089231384496], [0.017616480466858882, 0.0018621739176047903, 0.009300872936825346]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11737385,
+            "mp2_total_energy": -152.660896119,
+            "mp2_correlation_energy": -0.543522266,
+            "return_energy": -152.660896119,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.56924444,
+            "scf_one_electron_energy": -284.40066915,
+            "scf_two_electron_energy": 94.71405086,
+            "mulliken_charges": [ -0.528697, 0.204407, 0.311759, -0.462624, 0.236586, 0.238569 ],
+            "loewdin_charges": [ 1.01289, -0.503349, -0.671814, 1.060651, -0.455482, -0.442897 ],
+            "mp2_dipole_moment": [ 0.81076, 0.67676, -0.86411 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.624765, -0.47028, 1.298172], [-0.434565, -0.59528, 0.352372], [-0.731465, 0.50642, 1.332772], [0.564735, 0.43132, -1.212028], [0.626935, 0.34412, -2.170828], [1.492035, 0.36322, -0.881828]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.0017342394589761401, -0.03668640598785445, 0.01381476724411227], [0.00126694798290978, -0.00185718504063611, -0.012357391559636626], [-0.002634448292904205, 0.03731574147909668, -0.00277721710161018], [-0.03645404526358593, 0.004222989867681395, -0.011278830374078251], [-0.003631543385235385, -0.00022967731317173002, -0.00581627465503108], [0.039718849499839594, -0.0027654441078545453, 0.018414946446243866]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12100774000004,
+            "mp2_total_energy": -152.66299163,
+            "mp2_correlation_energy": -0.541983892,
+            "return_energy": -152.66299163,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 36.27308595,
+            "scf_one_electron_energy": -281.94776999,
+            "scf_two_electron_energy": 93.55367631,
+            "mulliken_charges": [ -0.514623, 0.197427, 0.30558, -0.451782, 0.230658, 0.23274 ],
+            "loewdin_charges": [ 1.009354, -0.502228, -0.669672, 1.057652, -0.453943, -0.441164 ],
+            "mp2_dipole_moment": [ 0.79465, 0.67075, -0.84494 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.803922, -0.406709, 0.606809], [-1.613722, -0.531709, -0.338991], [-1.910622, 0.569991, 0.641409], [1.805478, 0.343391, -0.622591], [1.915478, 1.202091, -0.182291], [1.584178, -0.235209, 0.130409]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.001330537266999205, -0.04066531882929542, 0.022378703684166352], [0.00154957542209, 0.005114694934049211, -0.016359831491327626], [-0.00218966345498064, 0.035360252885464086, -0.005817427387967025], [0.004933224534313475, -0.0032542973590014503, -0.031443341958167954], [6.527114034023e-05, 0.011559152347386581, 0.011824828943230035], [-0.003027889272025105, -0.008114483978603001, 0.019417087107327462]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11853828,
+            "mp2_total_energy": -152.659113214,
+            "mp2_correlation_energy": -0.54057493,
+            "return_energy": -152.659113214,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.88657185,
+            "scf_one_electron_energy": -273.10307519,
+            "scf_two_electron_energy": 89.09796506,
+            "mulliken_charges": [ -0.503395, 0.196206, 0.279219, -0.429128, 0.22632, 0.230779 ],
+            "loewdin_charges": [ 1.016975, -0.507009, -0.676178, 1.0674, -0.457169, -0.444019 ],
+            "mp2_dipole_moment": [ 0.76513, 0.65924, -0.80985 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.164555, 0.076348, -0.581038], [-0.974355, -0.048652, -1.526838], [-1.271255, 1.053048, -0.546438], [1.209345, -0.083252, 0.615462], [0.287045, -0.124852, 0.234862], [1.247545, -0.769952, 1.291962]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.011776981077757695, -0.042338576826233945, 0.03056019735114412], [0.00276100325146197, 0.008000476801511915, -0.014224365381597647], [8.804234014045501e-05, 0.03128280972389168, -0.007796858811597041], [0.024918136547530695, 0.005297941676341976, 0.006302123241640031], [-0.04248030628557145, 0.00366977254473402, -0.021610208761115936], [0.00293614306868063, -0.005912423920245641, 0.006769112361526471]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11811223,
+            "mp2_total_energy": -152.662885402,
+            "mp2_correlation_energy": -0.544773175,
+            "return_energy": -152.662885402,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 38.14962025,
+            "scf_one_electron_energy": -285.6856736,
+            "scf_two_electron_energy": 95.41794111,
+            "mulliken_charges": [ -0.526718, 0.292753, 0.241205, -0.46236, 0.204709, 0.250411 ],
+            "loewdin_charges": [ 0.995116, -0.614001, -0.484994, 1.031496, -0.488724, -0.438893 ],
+            "mp2_dipole_moment": [ 0.7762, 0.49151, -1.15764 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.438861, -1.292766, -0.488965], [-1.248661, -1.417766, -1.434765], [-1.545561, -0.316066, -0.454365], [1.424639, 1.265934, 0.478335], [1.733239, 1.796934, 1.222735], [1.286739, 0.362834, 0.835135]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.0012641133937230302, -0.04023827851968091, 0.022899379923249835], [0.002441526152854, 0.00541727788110415, -0.01754293232609334], [-0.00317235883424313, 0.03349201294699965, -0.006198263893837511], [0.0052352972553148, 0.025521374920993586, -0.0103379357366897], [0.00281792180233191, 0.00911516955057073, 0.002807093671638525], [-0.006058291879795796, -0.03330753788272596, 0.00837265836173219]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11927994,
+            "mp2_total_energy": -152.659408799,
+            "mp2_correlation_energy": -0.540128861,
+            "return_energy": -152.659408799,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.46548209,
+            "scf_one_electron_energy": -272.30664969,
+            "scf_two_electron_energy": 88.72188767,
+            "mulliken_charges": [ -0.513379, 0.28625, 0.234651, -0.450161, 0.198976, 0.243664 ],
+            "loewdin_charges": [ 0.991829, -0.612208, -0.483908, 1.028678, -0.486759, -0.437632 ],
+            "mp2_dipole_moment": [ 0.76237, 0.48276, -1.13922 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.504087, 0.932677, 1.080907], [-0.242087, 0.639777, 0.190407], [0.346013, 1.072477, 1.536207], [0.386513, -0.915423, -1.021393], [0.448713, -1.002623, -1.980193], [1.313813, -0.983523, -0.691193]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.026624067909161827, -0.00486937068856662, 0.000186686043839355], [0.005938823394204905, 0.0036346425360795653, -0.01345587045854723], [0.022548949110722555, 0.0021254883557926202, 0.010774821519412855], [-0.037710202910324814, -0.00130984476593593, -0.012043319077744726], [-0.004051572810928001, -0.000160267672618845, -0.005339288883946035], [0.03989805222822593, 0.00057935223524921, 0.019876951959724536]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11975798000003,
+            "mp2_total_energy": -152.661672312,
+            "mp2_correlation_energy": -0.541914336,
+            "return_energy": -152.661672312,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 36.10595316,
+            "scf_one_electron_energy": -281.61028078,
+            "scf_two_electron_energy": 93.38456964,
+            "mulliken_charges": [ -0.500975, 0.265333, 0.230635, -0.43142, 0.195295, 0.241132 ],
+            "loewdin_charges": [ 0.999951, -0.618373, -0.488561, 1.037825, -0.489508, -0.441333 ],
+            "mp2_dipole_moment": [ 0.73409, 0.46813, -1.09694 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.683245, 0.996247, 0.389544], [-1.421245, 0.703347, -0.500956], [-0.833145, 1.136047, 0.844844], [1.627255, -1.003353, -0.431956], [1.737255, -0.144653, 0.008344], [1.405955, -1.581953, 0.321044]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.025945013723583998, 0.002082837237162655, 0.00679175128049798], [0.004263241034133246, -0.00477265450551471, -0.018699803762250996], [0.021638327885848498, 0.0033213637391599554, 0.011973890539930596], [0.00640613376753251, -0.004825812501396895, -0.03242788926903245], [-0.002023499836853355, 0.01180077272966515, 0.01196090812145528], [-0.004339208024338145, -0.0076065255963374, 0.02040114308939959]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11755901,
+            "mp2_total_energy": -152.65776105499998,
+            "mp2_correlation_energy": -0.540202042,
+            "return_energy": -152.65776105499998,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.92394189,
+            "scf_one_electron_energy": -273.07966114,
+            "scf_two_electron_energy": 89.03816024,
+            "mulliken_charges": [ -0.483219, 0.244786, 0.238342, -0.476731, 0.226396, 0.250426 ],
+            "loewdin_charges": [ 0.990086, -0.505453, -0.483926, 0.999954, -0.503798, -0.496862 ],
+            "mp2_dipole_moment": [ -0.01938, 0.72671, 0.18341 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.043878, 1.479305, -0.798303], [-0.781878, 1.186405, -1.688803], [-0.193778, 1.619105, -0.343003], [1.031122, -1.429995, 0.806097], [0.108822, -1.471595, 0.425497], [1.069322, -2.116695, 1.482597]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.024433535180163918, 0.005547839059045856, 0.00862981229275415], [0.00489643156666946, -0.007397087249959066, -0.019325586568379172], [0.018499700662927693, 0.004037683323912925, 0.010067421441967525], [0.050539591364077804, -0.000188160030216465, 0.02369580499842036], [-0.0566855665360504, 0.0013718844746032652, -0.029405385716462173], [0.00718337812253936, -0.0033721595773865153, 0.006337933551699306]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11855289,
+            "mp2_total_energy": -152.658806248,
+            "mp2_correlation_energy": -0.540253362,
+            "return_energy": -152.658806248,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.59559164,
+            "scf_one_electron_energy": -272.57354126,
+            "scf_two_electron_energy": 88.85939673,
+            "mulliken_charges": [ -0.470306, 0.238438, 0.231764, -0.463906, 0.220017, 0.243993 ],
+            "loewdin_charges": [ 0.987204, -0.503807, -0.48264, 0.99697, -0.502251, -0.495476 ],
+            "mp2_dipole_moment": [ -0.01898, 0.71026, 0.17936 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.318183, 0.110191, -0.70623], [-1.056183, -0.182709, -1.59673], [-0.468083, 0.249991, -0.25093], [1.246417, -0.080809, 0.66897], [1.555017, 0.450191, 1.41337], [1.108517, -0.983909, 1.02577]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.015019713312877206, 0.0046174135043870355, 0.01519574130137438], [0.0062491920128927856, -0.0079251334209281, -0.020980022893117675], [0.00867558145948954, 0.0040999497997152, 0.006421157090222286], [0.0039926700476273355, 0.025138421921863663, -0.011010111319174351], [0.0022105449286563654, 0.0069461230076083855, 0.0024256524534082002], [-0.00610827513578882, -0.03287677481264618, 0.007947564470025915]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12349654,
+            "mp2_total_energy": -152.665102054,
+            "mp2_correlation_energy": -0.541605517,
+            "return_energy": -152.665102054,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 36.37192741,
+            "scf_one_electron_energy": -282.13826322,
+            "scf_two_electron_energy": 93.64283928,
+            "mulliken_charges": [ -0.462042, 0.233555, 0.228446, -0.456013, 0.217998, 0.238056 ],
+            "loewdin_charges": [ 0.99552, -0.507851, -0.486639, 1.004988, -0.506072, -0.499946 ],
+            "mp2_dipole_moment": [ -0.01887, 0.67697, 0.17141 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.234516, 0.072259, -0.656196], [-1.172316, -0.014941, -1.614996], [-0.307216, 0.004159, -0.325996], [1.185384, -0.079241, 0.624604], [1.295384, 0.779459, 1.064904], [0.964084, -0.657841, 1.377604]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.018084849086816207, 0.0016281313370854651, 0.0009585257821301351], [-0.0011477062644538302, -0.000385031697866875, -0.008917938834956665], [0.026836492022816873, -0.0016355768580159952, 0.012909758505827975], [-0.002405867020884685, -0.002185411571200515, -0.03589532883761626], [-0.00064235570424004, 0.008060721270360975, 0.011834277573852536], [-0.00455571394642211, -0.005482832480363055, 0.01911072470802352]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12169517,
+            "mp2_total_energy": -152.664855501,
+            "mp2_correlation_energy": -0.543160331,
+            "return_energy": -152.664855501,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.58959793,
+            "scf_one_electron_energy": -284.56201014,
+            "scf_two_electron_energy": 94.85071705,
+            "mulliken_charges": [ -0.390848, 0.217936, 0.232496, -0.540511, 0.281943, 0.198983 ],
+            "loewdin_charges": [ 1.087674, -0.429251, -0.407501, 1.003853, -0.740299, -0.514476 ],
+            "mp2_dipole_moment": [ -0.80756, 0.11838, -0.56991 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.595148, 0.555317, -1.844043], [-0.532948, 0.468117, -2.802843], [0.332152, 0.487217, -1.513843], [0.589252, -0.505883, 1.862657], [-0.333048, -0.547483, 1.482057], [0.627452, -1.192583, 2.539157]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.035843984978813595, 0.00336371250161, -0.013596107034246374], [-0.004722179920729315, -8.390383992780001e-05, -0.00758437800615826], [0.040157946262128416, -0.0026248484841917452, 0.019026424025609577], [0.05026894478852691, 0.000428986727522745, 0.023739514363680044], [-0.057092878104925124, 0.00217685111185653, -0.028136604699211625], [0.007232151953812705, -0.00326079801686973, 0.006551132453065395]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11808762,
+            "mp2_total_energy": -152.658237728,
+            "mp2_correlation_energy": -0.54015011,
+            "return_energy": -152.658237728,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.01515184,
+            "scf_one_electron_energy": -271.45747191,
+            "scf_two_electron_energy": 88.32423246,
+            "mulliken_charges": [ -0.380427, 0.21223, 0.226609, -0.52613, 0.274744, 0.192974 ],
+            "loewdin_charges": [ 1.08432, -0.427481, -0.40605, 1.000048, -0.737775, -0.513063 ],
+            "mp2_dipole_moment": [ -0.80019, 0.11735, -0.56396 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.869454, -0.813797, -1.75197], [-0.807254, -0.900997, -2.71077], [0.057846, -0.881897, -1.42177], [0.804546, 0.843303, 1.72553], [1.113146, 1.374303, 2.46993], [0.666646, -0.059797, 2.08233]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.03605810984598069, 0.004553181713415281, -0.012379728122428216], [-0.00505293868430055, -0.00018062002297971003, -0.007538854503819055], [0.04127227996322358, -0.004975025276187416, 0.019637920502236533], [0.002687020473687795, 0.027370963262609207, -0.009730672246581626], [0.002932042362990465, 0.009103094200635176, 0.002691026693071735], [-0.005780313166881845, -0.03587159387749254, 0.007320307677520631]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11767265000003,
+            "mp2_total_energy": -152.657181107,
+            "mp2_correlation_energy": -0.539508456,
+            "return_energy": -152.657181107,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 30.40521601,
+            "scf_one_electron_energy": -270.2684187,
+            "scf_two_electron_energy": 87.74553004,
+            "mulliken_charges": [ -0.347234, 0.209256, 0.222172, -0.521473, 0.242389, 0.19489 ],
+            "loewdin_charges": [ 1.093563, -0.430223, -0.409289, 1.006859, -0.743817, -0.517094 ],
+            "mp2_dipole_moment": [ -0.78582, 0.11616, -0.55257 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[0.645594, 0.467387, -1.254607], [0.755594, 1.326087, -0.814307], [0.424294, -0.111213, -0.501607], [-0.589906, -0.442313, 1.171293], [-1.512206, -0.483913, 0.790693], [-0.551706, -1.129013, 1.847793]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.000587912694593195, -0.006571673776038711, -0.020560125748253773], [0.0008643985238687901, 0.01427824147340714, 0.011127368825199576], [-0.002597409660864005, -0.00993924131894269, 0.010626534710423342], [0.05161726437835767, 0.0031840751362150303, 0.021681602614099547], [-0.05599957705559565, 0.0012885097579903252, -0.027883834932798505], [0.005527392222378765, -0.00223989237536985, 0.00500845453132982]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12098718,
+            "mp2_total_energy": -152.6633637,
+            "mp2_correlation_energy": -0.542376521,
+            "return_energy": -152.6633637,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 36.58821648,
+            "scf_one_electron_energy": -282.58386261,
+            "scf_two_electron_energy": 93.87465895,
+            "mulliken_charges": [ -0.488569, 0.233443, 0.255268, -0.476528, 0.225372, 0.251014 ],
+            "loewdin_charges": [ 0.989272, -0.503811, -0.484906, 0.99622, -0.513602, -0.483173 ],
+            "mp2_dipole_moment": [ 0.17051, 0.30861, 0.13367 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[0.371288, -0.901727, -1.162533], [0.481288, -0.043027, -0.722233], [0.149988, -1.480327, -0.409533], [-0.374612, 0.906873, 1.034167], [-0.066012, 1.437873, 1.778567], [-0.512512, 0.003773, 1.390967]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.002046100961302375, 0.0056688004282751, -0.028237780635917354], [0.004410677466366735, 0.006425824713749801, 0.0068526382562293705], [-0.006632220601067691, -0.009282013470102836, 0.024829867440255303], [0.0013798213243261651, 0.026609705990615625, -0.010084882511357906], [0.002209108736801745, 0.00734963622697287, 0.0018978708440965952], [-0.0034134878877293304, -0.03677197278677181, 0.0047422866066939955]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11821252000001,
+            "mp2_total_energy": -152.659829252,
+            "mp2_correlation_energy": -0.541616735,
+            "return_energy": -152.659829252,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 36.42180313,
+            "scf_one_electron_energy": -282.13218261,
+            "scf_two_electron_energy": 93.59216696,
+            "mulliken_charges": [ -0.475637, 0.22713, 0.248634, -0.463756, 0.219315, 0.244313 ],
+            "loewdin_charges": [ 0.986387, -0.502132, -0.483616, 0.993269, -0.511879, -0.48203 ],
+            "mp2_dipole_moment": [ 0.16709, 0.30175, 0.13107 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.224844, -1.328369, 0.075519], [-1.147144, -1.369969, -0.305081], [-0.186644, -2.015069, 0.752019], [0.264756, 1.389931, -0.153681], [0.573356, 1.920931, 0.590719], [0.126856, 0.486831, 0.203119]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.05335537777588903, 0.005225149426026235, 0.019678681894742], [-0.05652977751434662, 0.0019556775662450503, -0.026264245157795782], [0.0056499031670301, -0.00232579932498962, 0.004917917752705025], [0.0018532355130359052, 0.008590052455094671, -0.013854243622853077], [0.0035202952082860704, 0.006978437324337335, 0.005907075995313305], [-0.007849034149894485, -0.02042351744671367, 0.00961481313788853]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12019431,
+            "mp2_total_energy": -152.663152653,
+            "mp2_correlation_energy": -0.542958344,
+            "return_energy": -152.663152653,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.02439067,
+            "scf_one_electron_energy": -283.50465227,
+            "scf_two_electron_energy": 94.36006729,
+            "mulliken_charges": [ -0.467614, 0.225417, 0.242191, -0.458403, 0.21803, 0.240379 ],
+            "loewdin_charges": [ 0.994926, -0.505797, -0.487928, 1.000983, -0.515524, -0.486661 ],
+            "mp2_dipole_moment": [ 0.15858, 0.28632, 0.12458 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[0.786122, -1.167509, -0.070873], [1.638222, -0.806909, 0.270127], [1.025822, -1.782209, -0.774773], [-0.824578, 1.245591, 0.091427], [-0.375778, 0.450091, -0.248073], [-1.677778, 0.899491, 0.426427]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.031817734497953894, -0.013367298995091915, -0.009666761709051034], [0.03523515301602218, 0.018162630214100625, 0.017004757223096984], [-0.00371043945093326, -0.00446470473626619, -0.004968524618319136], [0.024825691145520155, 0.019720917273624572, -0.00316090709392866], [0.0056519062767220705, -0.007990215588655881, -0.01059539202389158], [-0.030184576489377255, -0.012061328167711211, 0.01138680932483218]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12216418,
+            "mp2_total_energy": -152.664183233,
+            "mp2_correlation_energy": -0.54201905,
+            "return_energy": -152.664183233,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 36.27127925,
+            "scf_one_electron_energy": -281.97577255,
+            "scf_two_electron_energy": 93.58232912,
+            "mulliken_charges": [ -0.496068, 0.299665, 0.206855, -0.474189, 0.218571, 0.245165 ],
+            "loewdin_charges": [ 1.008602, -0.624408, -0.496988, 1.038052, -0.485972, -0.439286 ],
+            "mp2_dipole_moment": [ 1.39466, -0.32942, -0.83281 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[0.04523, -1.330753, -1.166151], [0.89733, -0.970153, -0.825151], [0.28493, -1.945453, -1.870051], [-0.06997, 1.293347, 1.206649], [-0.65377, 1.362247, 0.401049], [-0.13577, 2.147147, 1.651249]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.031163756978048174, -0.015173650402978975, -0.01167480358620598], [0.03592059447590082, 0.018834994769197727, 0.016323851105917147], [-0.0038075335792100698, -0.005982532759464591, -0.00623791034792952], [0.02935022461088802, -0.00286939794196329, 0.04463776880739061], [-0.033866670048443015, 0.0009497952474349451, -0.05112347894202581], [0.0035671226216511804, 0.004240791087774185, 0.00807457296285356]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11816949,
+            "mp2_total_energy": -152.65865028300001,
+            "mp2_correlation_energy": -0.540480795,
+            "return_energy": -152.65865028300001,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 32.62979141,
+            "scf_one_electron_energy": -274.74606908,
+            "scf_two_electron_energy": 89.99810818,
+            "mulliken_charges": [ -0.482462, 0.293171, 0.200166, -0.46211, 0.212779, 0.238456 ],
+            "loewdin_charges": [ 1.00535, -0.622724, -0.495863, 1.035328, -0.483985, -0.438106 ],
+            "mp2_dipole_moment": [ 1.36481, -0.32824, -0.82034 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[0.631155, 0.0075, -1.262651], [1.483255, 0.3681, -0.921651], [0.870855, -0.6072, -1.966551], [-0.741345, -0.0274, 1.315749], [-0.297645, -0.252, 0.477549], [-0.307245, 0.807, 1.567749]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.03367469277145506, -0.013855698711968942, -0.015232080734748516], [0.03325052484554979, 0.018648800054150743, 0.02129029702549933], [-0.00285295732468014, -0.00397057914923193, -0.005239851495274846], [-0.020953925775338333, -0.01550115883761607, 0.0033741059952947503], [0.01081267273368659, -0.004442462659780825, -0.007693793148766811], [0.013418378292237151, 0.019121099304447026, 0.00350132235799609]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12074383,
+            "mp2_total_energy": -152.662707881,
+            "mp2_correlation_energy": -0.541964046,
+            "return_energy": -152.662707881,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 36.351103,
+            "scf_one_electron_energy": -282.07114797,
+            "scf_two_electron_energy": 93.59930113,
+            "mulliken_charges": [ -0.475999, 0.272844, 0.199767, -0.43993, 0.208399, 0.234918 ],
+            "loewdin_charges": [ 1.013005, -0.629314, -0.500074, 1.044618, -0.486656, -0.441579 ],
+            "mp2_dipole_moment": [ 1.30603, -0.32879, -0.78922 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.046714, -0.655738, -0.646753], [-0.194614, -0.295138, -0.305753], [-0.807014, -1.270438, -1.350653], [0.989386, 0.661662, 0.601347], [0.370286, 1.233662, 1.106847], [1.541386, 0.237862, 1.270347]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.017505988180359363, -0.0011842535677016601, -0.001445621587981255], [0.02343804635503856, 0.013430661512046402, 0.012711469543584191], [0.000346367901359605, -0.006895308272120581, -0.006574583954270441], [0.01306318536987613, -0.022326641729436377, -0.022837378009104993], [-0.02413837885677826, 0.020612206600244997, 0.016054111598906014], [0.004796767410863331, -0.003636683440294025, 0.002092021306127725]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12150516,
+            "mp2_total_energy": -152.66439311300002,
+            "mp2_correlation_energy": -0.542887951,
+            "return_energy": -152.66439311300002,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.60493918,
+            "scf_one_electron_energy": -284.6180159,
+            "scf_two_electron_energy": 94.89157156,
+            "mulliken_charges": [ -0.475379, 0.243781, 0.231279, -0.47379, 0.234938, 0.23917 ],
+            "loewdin_charges": [ 0.998986, -0.498602, -0.503027, 1.003542, -0.508273, -0.492627 ],
+            "mp2_dipole_moment": [ 0.66311, 0.05184, 0.47308 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[1.800093, -0.560338, -0.809186], [2.652193, -0.199738, -0.468186], [2.039793, -1.175038, -1.513086], [-1.856407, 0.638662, 0.815514], [-1.178907, 0.058762, 1.231314], [-2.619107, 0.072662, 0.649514]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.03186554456890374, -0.013209658041786126, -0.014898600765558002], [0.036187858441688855, 0.019638128372110226, 0.02009587673124786], [-0.004113688108640315, -0.006072616003819505, -0.006053794331619486], [-0.022249597595340512, 0.018315849208275087, -0.01625859886283816], [0.030694349008722376, -0.01971532368429605, 0.020559199782452773], [-0.008653396074787911, 0.001043639046777615, -0.0034440636564237403]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11762612,
+            "mp2_total_energy": -152.657162596,
+            "mp2_correlation_energy": -0.539536481,
+            "return_energy": -152.657162596,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 30.41962432,
+            "scf_one_electron_energy": -270.33280011,
+            "scf_two_electron_energy": 87.79554967,
+            "mulliken_charges": [ -0.462444, 0.237449, 0.224646, -0.46091, 0.228475, 0.232784 ],
+            "loewdin_charges": [ 0.996108, -0.497124, -0.501797, 1.000684, -0.506806, -0.491065 ],
+            "mp2_dipole_moment": [ 0.6492, 0.04928, 0.46178 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.718267, -0.099377, -1.095026], [-0.269467, -0.894877, -1.434526], [-1.571467, -0.445477, -0.760026], [0.777233, 0.111623, 1.115474], [0.193433, 0.180523, 0.309874], [0.711433, 0.965423, 1.560074]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.024869343818996106, 0.030302552091329794, 0.00553908962708942], [0.00816471289899221, -0.016108271149634184, -0.0044806918192794596], [-0.024066077935254893, -0.010781133204668687, 0.011418689004552496], [0.017661474845883224, -0.00783159197776535, 0.018082090086674437], [-0.026461173517229927, -0.0027044437485556853, -0.036653109013540755], [-0.00016829900864797002, 0.00712290688655536, 0.00609395101176511]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11883706,
+            "mp2_total_energy": -152.663193051,
+            "mp2_correlation_energy": -0.54435599,
+            "return_energy": -152.663193051,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 38.06697476,
+            "scf_one_electron_energy": -285.51940346,
+            "scf_two_electron_energy": 95.33359164,
+            "mulliken_charges": [ -0.452422, 0.232728, 0.219201, -0.452451, 0.222733, 0.230211 ],
+            "loewdin_charges": [ 1.004039, -0.50149, -0.506268, 1.009192, -0.510735, -0.494738 ],
+            "mp2_dipole_moment": [ 0.62077, 0.04323, 0.4385 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.132342, 1.238876, -1.191527], [0.316458, 0.443376, -1.531027], [-0.985542, 0.892776, -0.856527], [0.105858, -1.209124, 1.224573], [0.549558, -1.433724, 0.386373], [0.539958, -0.374724, 1.476573]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.01449026874457604, 0.02939971653808867, -0.003167842388805575], [0.01247835292886587, -0.020015166528470466, -0.006190572708510795], [-0.027432077005475536, -0.00956178742283506, 0.00930493584799302], [-0.020548144884624447, -0.01290225629311371, 0.01737448213935541], [0.01047577236021073, -0.0025360124590790003, -0.02168128136065838], [0.010535827856447341, 0.015615506165409567, 0.004360259573365075]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11764939,
+            "mp2_total_energy": -152.658501815,
+            "mp2_correlation_energy": -0.540852428,
+            "return_energy": -152.658501815,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 33.90172511,
+            "scf_one_electron_energy": -277.0573613,
+            "scf_two_electron_energy": 91.03798681,
+            "mulliken_charges": [ -0.483542, 0.232588, 0.251159, -0.484709, 0.261622, 0.222881 ],
+            "loewdin_charges": [ 0.99673, -0.499204, -0.496347, 0.976121, -0.455625, -0.521675 ],
+            "mp2_dipole_moment": [ 0.15369, -0.57818, -0.07941 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.810211, 0.575638, -0.575628], [-1.361411, -0.219862, -0.915128], [-2.663411, 0.229538, -0.240628], [1.836589, -0.520062, 0.510172], [1.217489, 0.051938, 1.015672], [2.388589, -0.943862, 1.179172]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.017403905175113876, 0.029646042338417243, -0.005248015112132685], [0.008522683718756245, -0.0178099128329627, -0.007166654046337535], [-0.02801587009711732, -0.011483827864064012, 0.01134572667888555], [0.02049698999843423, -0.017121410016762373, -0.018954841200013516], [-0.02480817338434604, 0.02224593152665898, 0.0173541108917333], [0.0064004645891590104, -0.00547684204854839, 0.00266965389060364]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11923071,
+            "mp2_total_energy": -152.659263976,
+            "mp2_correlation_energy": -0.54003327,
+            "return_energy": -152.659263976,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.33791213,
+            "scf_one_electron_energy": -272.08140996,
+            "scf_two_electron_energy": 88.62426712,
+            "mulliken_charges": [ -0.470766, 0.226181, 0.244775, -0.471742, 0.254527, 0.217026 ],
+            "loewdin_charges": [ 0.993847, -0.497689, -0.494829, 0.973331, -0.454925, -0.519736 ],
+            "mp2_dipole_moment": [ 0.15102, -0.5655, -0.07695 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[1.036595, 0.671038, -0.738062], [1.485395, -0.124462, -1.077562], [0.183395, 0.324938, -0.403062], [-1.009205, -0.543062, 0.724338], [-0.331705, -1.122962, 1.140138], [-1.771905, -1.109062, 0.558338]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.00239666405465837, 0.026727246955559527, 0.003944595415020055], [0.010729222428028672, -0.021689955203569835, -0.006390467937960406], [-0.01758254098566286, -0.008309976146182525, 0.00653977519905715], [-0.021384008544013285, 0.022999799969505765, -0.015620022610847122], [0.030888612854320978, -0.01987304022664682, 0.01356063687488951], [-0.00504794980733187, 0.00014594354859513503, -0.002034498042897945]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12005946,
+            "mp2_total_energy": -152.662939565,
+            "mp2_correlation_energy": -0.542880103,
+            "return_energy": -152.662939565,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.20421157,
+            "scf_one_electron_energy": -283.77442055,
+            "scf_two_electron_energy": 94.45014952,
+            "mulliken_charges": [ -0.463755, 0.224576, 0.239343, -0.465035, 0.249892, 0.214979 ],
+            "loewdin_charges": [ 1.002294, -0.501269, -0.498678, 0.981129, -0.460126, -0.52335 ],
+            "mp2_dipole_moment": [ 0.14241, -0.53522, -0.07463 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[0.622267, 1.286632, -0.076304], [0.038467, 1.355532, -0.881904], [0.556467, 2.140432, 0.368296], [-0.635033, -1.372368, 0.129296], [-0.191333, -1.596968, -0.708904], [-0.200933, -0.537968, 0.381296]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.03168229782661098, -0.000912340875647355, 0.04397604341037444], [-0.03379648562017909, -0.00362921902210225, -0.05028330670707311], [0.00307243011677957, 0.0035659131969315, 0.006223794093779505], [-0.01625614221887631, -0.00691454568406799, 0.019123971688156268], [0.01090232134103287, -0.00212114198570627, -0.021974358985307085], [0.004395559657370735, 0.010011353267853611, 0.0029338565000699853]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12052519,
+            "mp2_total_energy": -152.662738176,
+            "mp2_correlation_energy": -0.542212984,
+            "return_energy": -152.662738176,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 36.23072255,
+            "scf_one_electron_energy": -281.81870857,
+            "scf_two_electron_energy": 93.46746083,
+            "mulliken_charges": [ -0.519792, 0.211277, 0.31348, -0.473679, 0.223299, 0.245415 ],
+            "loewdin_charges": [ 1.010445, -0.494597, -0.656598, 1.052392, -0.473589, -0.438053 ],
+            "mp2_dipole_moment": [ 1.02009, -0.35412, 0.5654 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.055602, 0.623394, 0.539594], [-1.639402, 0.692294, -0.266006], [-1.121402, 1.477194, 0.984194], [1.095698, -0.683306, -0.585106], [0.476598, -0.111306, -0.079606], [1.647698, -1.107106, 0.083894]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.035805642435747485, -0.007910752605120655, 0.04088590655980831], [-0.033615619932803195, 0.00039782514372974006, -0.049720999801466895], [0.00297386200212565, 0.002705086255438015, 0.00631365057099948], [0.003102193303240445, -0.009375290351608155, -0.013320018047456925], [-0.014971714269314904, 0.01895451994657235, 0.009949502531798726], [0.006705636461004516, -0.0047714072862725405, 0.00589193928905606]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12070203,
+            "mp2_total_energy": -152.663745162,
+            "mp2_correlation_energy": -0.543043135,
+            "return_energy": -152.663745162,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.25397418,
+            "scf_one_electron_energy": -283.94906511,
+            "scf_two_electron_energy": 94.57438891,
+            "mulliken_charges": [ -0.506252, 0.204956, 0.306813, -0.462335, 0.217619, 0.239198 ],
+            "loewdin_charges": [ 1.006936, -0.493386, -0.654727, 1.04947, -0.471655, -0.436638 ],
+            "mp2_dipole_moment": [ 1.00553, -0.34686, 0.55848 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[1.791204, 0.718794, 0.377161], [1.207404, 0.787694, -0.428439], [1.725404, 1.572594, 0.821761], [-1.750096, -0.706306, -0.370939], [-1.072596, -1.286206, 0.044861], [-2.512796, -1.272306, -0.536939]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.030526881479569185, -0.0006425068823300001, 0.04408821755312476], [-0.033028652101272246, -0.0026348262381291052, -0.052073198600415774], [0.00460443108591172, 0.004419464692845661, 0.008348866709824735], [-0.02550737205041104, 0.018222893580210932, -0.013488354850627386], [0.03141433466215687, -0.02020056755854516, 0.01631030176960448], [-0.008009623075954495, 0.00083556130320892, -0.003185832581510815]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11863352999998,
+            "mp2_total_energy": -152.658643988,
+            "mp2_correlation_energy": -0.540010459,
+            "return_energy": -152.658643988,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.57389623,
+            "scf_one_electron_energy": -272.56617495,
+            "scf_two_electron_energy": 88.87364519,
+            "mulliken_charges": [ -0.501766, 0.205049, 0.286406, -0.4401, 0.214262, 0.23615 ],
+            "loewdin_charges": [ 1.014158, -0.497642, -0.661121, 1.058619, -0.474175, -0.43984 ],
+            "mp2_dipole_moment": [ 0.97541, -0.33514, 0.54225 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.726977, -0.697353, 0.648694], [-1.283277, -0.921953, -0.189506], [-1.292877, 0.137047, 0.900694], [1.681623, 0.654947, -0.681606], [1.062523, 1.226947, -0.176106], [2.233623, 0.231147, -0.012606]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.022295574631949595, -0.015966768457431627, 0.014375732444170095], [0.009759547261763984, -0.003048109341557255, -0.017822592895258095], [0.0121339314454145, 0.019329838452159298, 0.0036398014883994505], [0.023785396913982904, -0.017603233486726138, -0.019092829001624505], [-0.029038514286651742, 0.02223410184111961, 0.01707813528851132], [0.0056552321947011906, -0.00494582900756389, 0.0018217337785404902]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11745393,
+            "mp2_total_energy": -152.65763355400003,
+            "mp2_correlation_energy": -0.540179627,
+            "return_energy": -152.65763355400003,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 32.12927248,
+            "scf_one_electron_energy": -273.48305822,
+            "scf_two_electron_energy": 89.23633181,
+            "mulliken_charges": [ -0.529578, 0.202993, 0.294962, -0.41542, 0.221277, 0.225765 ],
+            "loewdin_charges": [ 1.013759, -0.510637, -0.711901, 1.080921, -0.440432, -0.43171 ],
+            "mp2_dipole_moment": [ 0.81273, 0.07155, 0.52572 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[1.119829, -0.601954, 0.48626], [1.563529, -0.826554, -0.35194], [1.553929, 0.232446, 0.73826], [-1.164171, 0.631946, -0.46744], [-0.486671, 0.052046, -0.05164], [-1.926871, 0.065946, -0.63344]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.02525849511981439, -0.01142811873791375, 0.013593537006717055], [0.010044064427068705, -0.00148766799425138, -0.01711120549569007], [0.008829990981122434, 0.015346635932415705, 0.00079908958900607], [-0.006224965723976695, 0.012903484615094636, -0.005867694102878725], [0.019572592670112566, -0.012268045308470265, 0.011814662216680226], [-0.00696318723451262, -0.003066288506874945, -0.00322837031657331]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12191183,
+            "mp2_total_energy": -152.664772876,
+            "mp2_correlation_energy": -0.542861045,
+            "return_energy": -152.664772876,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.47023737,
+            "scf_one_electron_energy": -284.31135906,
+            "scf_two_electron_energy": 94.71920986,
+            "mulliken_charges": [ -0.515489, 0.197046, 0.28798, -0.404873, 0.215454, 0.219882 ],
+            "loewdin_charges": [ 1.009984, -0.509262, -0.709686, 1.077704, -0.438682, -0.430059 ],
+            "mp2_dipole_moment": [ 0.80398, 0.06973, 0.52056 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[2.85056, 0.087108, -0.228142], [2.23146, 0.659108, 0.277358], [3.40256, -0.336692, 0.440858], [-2.84204, -0.031292, 0.148458], [-2.16454, -0.611192, 0.564258], [-3.60474, -0.597292, -0.017542]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.020320773037324606, -0.018005688459460902, -0.019582910574752335], [-0.02651599447210167, 0.02356008486815877, 0.017107558324269787], [0.006295906042690425, -0.005629361844056785, 0.0024439072077708703], [-0.024938318822540356, 0.01863389011502844, -0.01533157481520344], [0.032910128478743604, -0.019700905073966116, 0.0187011076732769], [-0.008072513161377855, 0.00114199929155784, -0.0033380689181005353]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.1176914,
+            "mp2_total_energy": -152.65701133799996,
+            "mp2_correlation_energy": -0.539319935,
+            "return_energy": -152.65701133799996,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 27.35887979,
+            "scf_one_electron_energy": -264.08993507,
+            "scf_two_electron_energy": 84.61336388,
+            "mulliken_charges": [ -0.512292, 0.198531, 0.260809, -0.376387, 0.212848, 0.216491 ],
+            "loewdin_charges": [ 1.016616, -0.513371, -0.715846, 1.086926, -0.441378, -0.432947 ],
+            "mp2_dipole_moment": [ 0.78656, 0.06611, 0.51116 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.23294, 0.082029, 0.627261], [-1.87524, -0.422771, 0.114061], [-0.35764, -0.103971, 0.200461], [1.16736, -0.081671, -0.593739], [1.95076, -0.339071, -0.063439], [1.32316, 0.860129, -0.783239]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.01614479955562077, 0.008569208775941436, 0.01204609697514774], [-0.0069984117294733, -0.00370356084784008, -0.003953892867552595], [0.03524101116700813, -0.0051187389479556405, -0.01314708920980393], [-0.04168595990913787, -0.010526057972383675, -0.00967641820954723], [0.025289127580292538, -0.00587648132935765, 0.016663926219282168], [0.00429901354967003, 0.016655649218856858, -0.001932604010264905]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12035298000004,
+            "mp2_total_energy": -152.66410299900002,
+            "mp2_correlation_energy": -0.54375002,
+            "return_energy": -152.66410299900002,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.82074448,
+            "scf_one_electron_energy": -285.05132799,
+            "scf_two_electron_energy": 95.11023054,
+            "mulliken_charges": [ -0.476576, 0.221991, 0.254426, -0.485859, 0.26312, 0.222898 ],
+            "loewdin_charges": [ 0.989751, -0.517185, -0.472637, 0.976313, -0.453449, -0.522793 ],
+            "mp2_dipole_moment": [ 0.07143, -0.58129, -0.21893 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-2.384306, 0.247689, -0.141755], [-3.026606, -0.257111, -0.654955], [-1.509006, 0.061689, -0.568555], [2.315594, -0.241411, 0.210445], [3.123794, -0.623211, -0.153055], [2.502594, 0.718989, 0.286145]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.0401154841161109, 0.008324829393521095, 0.021112114749220225], [-0.008226790402182035, -0.0018178787372465101, -0.0008049666372532651], [0.047479709028764916, -0.00632230551664969, -0.020765179930023272], [-0.0069084040741633655, -0.030573576612105583, -0.00044829972851513503], [0.004169170467655635, -0.0059258031812071, -0.0026480732182618504], [0.0036017801987745105, 0.036314734653687786, 0.003554404764833295]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11805643,
+            "mp2_total_energy": -152.657711509,
+            "mp2_correlation_energy": -0.539655077,
+            "return_energy": -152.657711509,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 29.09070199,
+            "scf_one_electron_energy": -267.60514002,
+            "scf_two_electron_energy": 86.3963816,
+            "mulliken_charges": [ -0.463758, 0.216075, 0.24752, -0.472855, 0.256054, 0.216964 ],
+            "loewdin_charges": [ 0.986858, -0.515392, -0.471544, 0.973555, -0.452601, -0.520876 ],
+            "mp2_dipole_moment": [ 0.0702, -0.56872, -0.21414 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-2.429243, -1.14606, -0.158802], [-3.071543, -1.65086, -0.672002], [-1.553943, -1.33206, -0.585602], [2.460757, 1.13924, 0.193398], [1.657257, 1.42264, -0.291502], [2.467957, 1.66854, 0.999898]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.04147971519990994, 0.008186917180955084, 0.020730541250161185], [-0.0079088817762574, -0.00169406388156927, -0.00062047267571833], [0.04903164660851054, -0.006483140107105885, -0.020174130290063406], [0.024375274923745582, -0.008794936561512959, 0.014326826332068035], [-0.027969515115283335, 0.006877884997252691, -0.021038887861895852], [0.00395119055919456, 0.00190733837198034, 0.00677614214270961]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11766469,
+            "mp2_total_energy": -152.657178153,
+            "mp2_correlation_energy": -0.539513462,
+            "return_energy": -152.657178153,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 27.88115468,
+            "scf_one_electron_energy": -265.12949149,
+            "scf_two_electron_energy": 85.13067212,
+            "mulliken_charges": [ -0.457985, 0.21373, 0.244117, -0.466234, 0.25137, 0.215001 ],
+            "loewdin_charges": [ 0.994683, -0.518825, -0.47598, 0.98159, -0.457236, -0.524232 ],
+            "mp2_dipole_moment": [ 0.06676, -0.54133, -0.20415 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.080778, -1.310439, -0.002053], [-0.723078, -1.815239, -0.515253], [0.794522, -1.496439, -0.428853], [0.087122, 1.386061, 0.002747], [-0.096878, 0.413761, 0.031647], [-0.075278, 1.697461, 0.901447]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.04067074234327274, 0.020883987011470585, 0.02171249963623512], [-0.0044820335248278555, -0.0015946831846818151, -0.00056884535799699], [0.04494966810423933, -0.006786819095313036, -0.019970077663139893], [0.00618817275633268, 0.018878685237196165, -0.005947553928900095], [-0.00487987756581884, -0.0355975268976563, -0.003187760102157805], [-0.0011051874266525801, 0.004216338031723155, 0.00796171851869842]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12019388000002,
+            "mp2_total_energy": -152.663806527,
+            "mp2_correlation_energy": -0.54361265,
+            "return_energy": -152.663806527,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.7736866,
+            "scf_one_electron_energy": -284.96389834,
+            "scf_two_electron_energy": 95.07001787,
+            "mulliken_charges": [ -0.47065, 0.224629, 0.246389, -0.461287, 0.221234, 0.239685 ],
+            "loewdin_charges": [ 0.990962, -0.518796, -0.47315, 0.997128, -0.513669, -0.482475 ],
+            "mp2_dipole_moment": [ 0.76041, -0.32625, 0.32569 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.28007, -1.379176, 0.613499], [-1.92237, -1.883976, 0.100299], [-0.40477, -1.565176, 0.186699], [1.31813, 1.379024, -0.544301], [1.28773, 1.996724, -1.285201], [0.43523, 1.454824, -0.100301]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.04076829000581943, 0.00724513437228802, 0.020530135794657962], [-0.007945183415109044, -0.00180325225704288, -0.000715733769654375], [0.04728009725823398, -0.0075473393741180604, -0.019198200130326627], [0.04012270286990649, -0.0022827324666122653, -0.019615413864093736], [0.00517909680037217, 0.0033968394005724854, -0.007455914424214751], [-0.043868423507584166, 0.0009913503249127, 0.026455126393631526]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11855803,
+            "mp2_total_energy": -152.658773299,
+            "mp2_correlation_energy": -0.540215266,
+            "return_energy": -152.658773299,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.35394694,
+            "scf_one_electron_energy": -272.11333912,
+            "scf_two_electron_energy": 88.64083414,
+            "mulliken_charges": [ -0.457643, 0.218665, 0.239375, -0.448699, 0.215208, 0.233093 ],
+            "loewdin_charges": [ 0.988107, -0.517037, -0.472103, 0.994232, -0.511939, -0.48126 ],
+            "mp2_dipole_moment": [ 0.74355, -0.31793, 0.31918 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.20391, 0.12737, -0.788083], [-0.42051, -0.13003, -0.257783], [-1.04811, 1.06917, -0.977583], [1.09569, -0.19803, 0.785117], [1.90389, -0.57983, 0.421617], [1.28269, 0.76237, 0.860817]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.015444391464836092, -0.01757135380700582, -0.00322965533033797], [0.016450708420654832, -0.00546123291076002, 0.010608563414979346], [0.00566214859231686, 0.022602239387433457, -0.00286240595530264], [-0.011601028678305501, -0.030599635935362437, -0.00343805432734783], [0.00296755031686982, -0.003238933885609265, -0.0016856734975764902], [0.001964993916038835, 0.03426891715130409, 0.00060720679832434]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.1199824,
+            "mp2_total_energy": -152.66281411,
+            "mp2_correlation_energy": -0.54283171,
+            "return_energy": -152.66281411,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.22105813,
+            "scf_one_electron_energy": -283.78862864,
+            "scf_two_electron_energy": 94.44758811,
+            "mulliken_charges": [ -0.452014, 0.216665, 0.23559, -0.443013, 0.212606, 0.230165 ],
+            "loewdin_charges": [ 0.995907, -0.520594, -0.476577, 1.002013, -0.515469, -0.485279 ],
+            "mp2_dipole_moment": [ 0.70718, -0.30007, 0.30587 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.248847, -1.266378, -0.805129], [-0.465447, -1.523778, -0.274829], [-1.093047, -0.324578, -0.994629], [1.240853, 1.182622, 0.768071], [0.437353, 1.466022, 0.283171], [1.248053, 1.711922, 1.574571]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.02806738403127119, -0.012672446699113266, -0.0135735248070586], [0.02464338926628964, -0.00983432372451045, 0.016995025133555813], [0.002951430953027835, 0.022760598436666557, -0.0032789393876649304], [0.025593562458949486, -0.00670697816655291, 0.015922435482550856], [-0.02899826312019989, 0.00472299250296285, -0.022336543894328757], [0.0038772455759428755, 0.0017301576505472202, 0.006271547472945621]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11757198,
+            "mp2_total_energy": -152.657653342,
+            "mp2_correlation_energy": -0.540081365,
+            "return_energy": -152.657653342,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 32.25134688,
+            "scf_one_electron_energy": -273.76179512,
+            "scf_two_electron_energy": 89.39287627,
+            "mulliken_charges": [ -0.522554, 0.223167, 0.303179, -0.480435, 0.261408, 0.215234 ],
+            "loewdin_charges": [ 1.009917, -0.500045, -0.649129, 1.033503, -0.409526, -0.48472 ],
+            "mp2_dipole_moment": [ -0.74387, -0.37637, 1.146 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[1.099618, -1.430757, -0.648381], [1.883018, -1.688157, -0.118081], [1.255418, -0.488957, -0.837881], [-1.132782, 1.429443, 0.577419], [-1.316782, 0.457143, 0.606319], [-1.295182, 1.740843, 1.476119]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.0287869539449583, -0.010420271103934165, -0.01513122605148395], [0.026809034302227887, -0.00879297124634348, 0.01823906963583665], [0.004050571256082015, 0.01765605133190591, -0.004235254190229401], [0.0073911535099281354, 0.04313118465463298, -0.0021487319871239703], [-0.00945018019792209, -0.04780791666206807, -0.00199377444491497], [-1.3624925357645e-05, 0.006233904128545581, 0.0052699359351768855]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11925235,
+            "mp2_total_energy": -152.659546004,
+            "mp2_correlation_energy": -0.540293655,
+            "return_energy": -152.659546004,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.83864982,
+            "scf_one_electron_energy": -273.08008594,
+            "scf_two_electron_energy": 89.12218377,
+            "mulliken_charges": [ -0.509125, 0.21686, 0.29647, -0.468438, 0.254599, 0.209634 ],
+            "loewdin_charges": [ 1.006425, -0.498739, -0.647234, 1.030698, -0.408521, -0.48263 ],
+            "mp2_dipole_moment": [ -0.73125, -0.37127, 1.12886 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.099674, -1.499494, -0.032828], [0.683726, -1.756894, 0.497472], [0.056126, -0.557694, -0.222328], [0.098226, 1.422406, 0.030372], [0.067826, 2.040106, -0.710528], [-0.784674, 1.498206, 0.474372]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.02874005094254821, 0.00046989929811817004, -0.015131433921357648], [0.028114362622726263, -0.009191382205171815, 0.019247446393131095], [-0.00016758091272066, 0.008383051855416941, -0.005300417217565071], [0.04063432732085362, -0.002048368632651775, -0.018051476523457538], [0.003943915113615235, 0.002316709742330775, -0.00571880258152937], [-0.04378497320192625, 7.0089941957705e-05, 0.02495470274803977]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12219885,
+            "mp2_total_energy": -152.664477464,
+            "mp2_correlation_energy": -0.54227861,
+            "return_energy": -152.664477464,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 36.22748348,
+            "scf_one_electron_energy": -281.85870827,
+            "scf_two_electron_energy": 93.50902594,
+            "mulliken_charges": [ -0.500901, 0.215958, 0.273227, -0.444917, 0.250758, 0.205875 ],
+            "loewdin_charges": [ 1.014131, -0.502981, -0.653614, 1.039955, -0.412372, -0.485119 ],
+            "mp2_dipole_moment": [ -0.7072, -0.35597, 1.09205 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.100614, -1.426118, -0.000945], [0.707586, -1.807918, -0.364445], [0.086386, -0.465718, 0.074755], [0.089486, 1.348282, -0.000945], [-0.714014, 1.631682, -0.485845], [0.096686, 1.877582, 0.805555]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.009591966349043326, -0.011309991957871255, 0.00012351249949732], [0.00694667102818449, -0.004621381929248485, -0.0033943260648269], [0.0032465305846297553, 0.021819099086918165, 0.003915266865567815], [0.023555001504883866, -0.01611857015701271, 0.012444791392894752], [-0.026229285224492534, 0.00843543506358808, -0.017687326299266386], [0.0020730295585765003, 0.00179539099636496, 0.0045980816061334]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12308741000004,
+            "mp2_total_energy": -152.665301638,
+            "mp2_correlation_energy": -0.542214226,
+            "return_energy": -152.665301638,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.21723236,
+            "scf_one_electron_energy": -283.84878383,
+            "scf_two_electron_energy": 94.50846406,
+            "mulliken_charges": [ -0.504054, 0.299155, 0.215745, -0.469892, 0.214088, 0.244958 ],
+            "loewdin_charges": [ 1.013047, -0.591475, -0.50458, 1.035616, -0.487057, -0.46555 ],
+            "mp2_dipole_moment": [ 0.00901, 0.06393, 1.57822 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[2.247851, -1.590498, 0.155803], [3.056051, -1.972298, -0.207697], [2.434851, -0.630098, 0.231503], [-2.284149, 1.595102, -0.191597], [-2.468149, 0.622802, -0.162697], [-2.446549, 1.906502, 0.707103]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.008090200997903176, -0.030178208112337693, -0.00197087096428603], [0.004376473423513285, -0.006103947662963715, -0.0025026209984590855], [0.004079786421966785, 0.03624802732149294, 0.004501951238180086], [0.008583192749262735, 0.04353140975054084, -0.00239420741069652], [-0.008989975194822605, -0.05002157963882986, -0.00268269300086269], [4.074249524422e-05, 0.006524298342097496, 0.005048422238862996]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11774824,
+            "mp2_total_energy": -152.657275958,
+            "mp2_correlation_energy": -0.539527714,
+            "return_energy": -152.657275958,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 27.51453309,
+            "scf_one_electron_energy": -264.44198406,
+            "scf_two_electron_energy": 84.80970272,
+            "mulliken_charges": [ -0.490861, 0.29316, 0.208929, -0.457483, 0.208258, 0.237997 ],
+            "loewdin_charges": [ 1.009882, -0.589729, -0.503436, 1.032829, -0.485135, -0.464411 ],
+            "mp2_dipole_moment": [ 0.00711, 0.06797, 1.54743 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[1.048559, -1.659234, 0.771356], [1.856759, -2.041034, 0.407856], [1.235559, -0.698834, 0.847056], [-1.053141, 1.588066, -0.738644], [-1.083541, 2.205766, -1.479544], [-1.936041, 1.663866, -0.294644]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.009517038708206901, -0.028574567625825747, -0.002999127640410215], [0.00470322596770058, -0.00638583810895538, -0.00259172158522926], [0.005855845520078111, 0.03489951875904974, 0.006128665280672176], [0.03940543842209127, -0.004254964033707936, -0.021042289368919952], [0.0054139141686025405, 0.003384480591718255, -0.007208341404644005], [-0.04586140426752684, 0.000931389314982315, 0.02771279582127001]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11778719,
+            "mp2_total_energy": -152.657523636,
+            "mp2_correlation_energy": -0.539736451,
+            "return_energy": -152.657523636,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 30.47707484,
+            "scf_one_electron_energy": -270.44736315,
+            "scf_two_electron_energy": 87.85250113,
+            "mulliken_charges": [ -0.478979, 0.273505, 0.206141, -0.439116, 0.204268, 0.234182 ],
+            "loewdin_charges": [ 1.018105, -0.59574, -0.507665, 1.042059, -0.48806, -0.4687 ],
+            "mp2_dipole_moment": [ 0.00052, 0.07119, 1.48305 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[2.393014, -0.209846, 0.138757], [1.589514, 0.073554, -0.346143], [2.400214, 0.319454, 0.945257], [-2.329086, 0.201354, -0.208643], [-2.513086, -0.770946, -0.179743], [-2.491486, 0.512754, 0.690057]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.023591662191699166, -0.008951613754495255, 0.012891333676114102], [-0.026326870681561712, 0.0071472843535614105, -0.02026636782220025], [0.0038313630256400152, 0.00179603350324729, 0.007477646274646499], [0.00665519967074161, 0.04366522125741668, -0.0023183915985815805], [-0.008334542585801024, -0.05004325479747788, -0.00265714390365945], [0.00058320727654319, 0.0063863105404865055, 0.0048729233736806805]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11852449,
+            "mp2_total_energy": -152.658061324,
+            "mp2_correlation_energy": -0.539536838,
+            "return_energy": -152.658061324,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 29.29808113,
+            "scf_one_electron_energy": -267.95819472,
+            "scf_two_electron_energy": 86.54158911,
+            "mulliken_charges": [ -0.462019, 0.253179, 0.215517, -0.512188, 0.199472, 0.306039 ],
+            "loewdin_charges": [ 1.053083, -0.397005, -0.474484, 1.014493, -0.511464, -0.684623 ],
+            "mp2_dipole_moment": [ -0.51058, -0.97072, 0.91972 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[1.193722, -0.278582, 0.754309], [0.390222, 0.004818, 0.269409], [1.200922, 0.250718, 1.560809], [-1.098078, 0.194318, -0.755691], [-1.128478, 0.812018, -1.496591], [-1.980978, 0.270118, -0.311691]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.010843683139389637, -0.009440448108380916, 0.00042932687822515504], [-0.01665442089687593, 0.0076563198797179755, -0.011604146726410925], [0.0008271709192161401, 0.003761518748078495, 0.007936074935188955], [0.04681582934396682, -0.006798459808239956, -0.017538113524475867], [0.002824139001281515, 0.002678441117082565, -0.005064484910921246], [-0.04465642040423942, 0.002142628171741835, 0.025841343348393928]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12112758,
+            "mp2_total_energy": -152.663836904,
+            "mp2_correlation_energy": -0.542709321,
+            "return_energy": -152.663836904,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.03189507,
+            "scf_one_electron_energy": -283.49980894,
+            "scf_two_electron_energy": 94.34678629,
+            "mulliken_charges": [ -0.450321, 0.246286, 0.209741, -0.498238, 0.193526, 0.299005 ],
+            "loewdin_charges": [ 1.050259, -0.39596, -0.472465, 1.010937, -0.510147, -0.682623 ],
+            "mp2_dipole_moment": [ -0.50057, -0.95958, 0.89968 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-1.179913, -0.031762, 0.563658], [-1.363913, -1.004062, 0.592558], [-1.342313, 0.279638, 1.462358], [1.250387, 0.029938, -0.598942], [1.219987, 0.647638, -1.339842], [0.367487, 0.105738, -0.154942]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[0.020138017623824212, 0.04520710549417997, -0.008804555267486665], [-0.007684061059225635, -0.046887525553130346, -0.0006525980198348301], [-0.00070256237856661, 0.003242977899515695, 0.0033466104801832754], [0.018566124536203866, -0.0057931633045284455, -0.005970759765708955], [0.0021814998381228003, 0.00568263322350644, -0.008208951387566756], [-0.03249901856035863, -0.0014520277595433102, 0.02029027285767518]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.12012197,
+            "mp2_total_energy": -152.663754148,
+            "mp2_correlation_energy": -0.543632183,
+            "return_energy": -152.663754148,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.80461087,
+            "scf_one_electron_energy": -285.03245874,
+            "scf_two_electron_energy": 95.1077259,
+            "mulliken_charges": [ -0.420885, 0.243303, 0.206392, -0.493739, 0.193014, 0.271916 ],
+            "loewdin_charges": [ 1.059268, -0.399436, -0.474516, 1.01775, -0.513924, -0.689142 ],
+            "mp2_dipole_moment": [ -0.48045, -0.93598, 0.85651 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[-0.016347, 1.350307, 0.321744], [0.874753, 1.615707, 0.579944], [0.076853, 0.414307, 0.011344], [0.014753, -1.278093, -0.299456], [-0.165147, -1.605393, -1.189156], [-0.761147, -1.570993, 0.244044]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.008457374783893525, 0.018762410388755684, 0.00643670953622692], [0.007954972196433955, 0.00348937928888925, 0.0026335790188869355], [-0.0007458182095564151, -0.03461313076488176, -0.01171962788987912], [0.03823327910158641, 0.025868555404586727, -0.021944992641332355], [0.001340363842846605, -0.0007237651056835001, -0.004643869670130035], [-0.038325422147417035, -0.012783449211666397, 0.029238201646227657]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.1201183,
+            "mp2_total_energy": -152.663798394,
+            "mp2_correlation_energy": -0.543680091,
+            "return_energy": -152.663798394,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.77555476,
+            "scf_one_electron_energy": -284.96884196,
+            "scf_two_electron_energy": 95.0731689,
+            "mulliken_charges": [ -0.477608, 0.248657, 0.221539, -0.51415, 0.305044, 0.216518 ],
+            "loewdin_charges": [ 1.0452, -0.430242, -0.481007, 1.000046, -0.649616, -0.484381 ],
+            "mp2_dipole_moment": [ 0.585, -1.07606, -0.25117 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[1.041511, 1.555669, -0.495001], [1.932611, 1.821069, -0.236801], [1.134711, 0.619669, -0.805401], [-1.045589, -1.562831, 0.501099], [-1.113589, -0.696831, 0.939899], [-1.888989, -1.630231, 0.005499]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.004902913327276495, 0.042733794147911876, 0.013149167908540881], [0.0049242294379608555, 0.00562945633036301, 0.0028946635802478554], [0.00180729627094931, -0.04649147675195764, -0.01722715909068939], [0.02949267216615283, -0.015989596349015586, 0.009157348237669569], [-0.002417810089991525, 0.016106645985167114, 0.008929352780748644], [-0.028903493355056216, -0.00198882336246878, -0.016903373416517563]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11929627999996,
+            "mp2_total_energy": -152.659589698,
+            "mp2_correlation_energy": -0.540293415,
+            "return_energy": -152.659589698,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 31.67101374,
+            "scf_one_electron_energy": -272.73991984,
+            "scf_two_electron_energy": 88.94960981,
+            "mulliken_charges": [ -0.465878, 0.242192, 0.215729, -0.500513, 0.298495, 0.209976 ],
+            "loewdin_charges": [ 1.042357, -0.428895, -0.479065, 0.996643, -0.647753, -0.483287 ],
+            "mp2_dipole_moment": [ 0.57789, -1.05978, -0.24586 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[2.221195, 1.466958, 0.245024], [3.112295, 1.732358, 0.503224], [2.314395, 0.530958, -0.065376], [-2.223505, -1.462942, -0.264576], [-3.065905, -1.834842, 0.024024], [-2.324105, -0.492242, -0.151476]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.005715382177244026, 0.042957405440223966, 0.01409826395730976], [0.004884431805778885, 0.00571797110203459, 0.002901542183341035], [0.001320370540449395, -0.048583743722481545, -0.016997935311787542], [0.005526560742883985, -0.03202915705676296, -0.004422053617636226], [-0.005024422717081846, -0.006253273821321706, 0.001383903132755085], [-0.000991558194786395, 0.038190779161046406, 0.003036279656017885]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11777376,
+            "mp2_total_energy": -152.65738020699996,
+            "mp2_correlation_energy": -0.539606446,
+            "return_energy": -152.65738020699996,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 27.79931502,
+            "scf_one_electron_energy": -265.02779142,
+            "scf_two_electron_energy": 85.11070264,
+            "mulliken_charges": [ -0.443452, 0.239029, 0.212504, -0.495515, 0.276874, 0.21056 ],
+            "loewdin_charges": [ 1.051556, -0.432182, -0.481518, 1.003978, -0.65428, -0.487555 ],
+            "mp2_dipole_moment": [ 0.56221, -1.02663, -0.23002 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[2.148705, 0.10197, -0.000244], [3.039805, 0.36737, 0.257956], [2.241905, -0.83403, -0.310644], [-2.254995, -0.10583, 0.011656], [-2.135895, 0.53197, -0.702944], [-1.458495, -0.00403, 0.574456]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.0041528621312012, 0.043405667374216604, 0.01382066318962071], [0.004813151336362746, 0.0054069410792031355, 0.0027127963380259752], [0.00087879823693748, -0.04874881129945662, -0.0167044230501302], [-0.023893375864736836, -0.004466764537741896, -0.015399378188550502], [-0.0031757225467447404, 0.004007787856623335, -0.0074990379743758405], [0.025530029866643798, 0.00039517952715544, 0.023069379685409855]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2,
+            "other": [  ]
+        },
+        "properties": {
+            "scf_total_energy": -152.11914613999997,
+            "mp2_total_energy": -152.658702374,
+            "mp2_correlation_energy": -0.539556236,
+            "return_energy": -152.658702374,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 30.05051041,
+            "scf_one_electron_energy": -269.49960154,
+            "scf_two_electron_energy": 87.32994499,
+            "mulliken_charges": [ -0.466289, 0.252043, 0.214148, -0.474447, 0.259503, 0.215042 ],
+            "loewdin_charges": [ 0.991313, -0.474097, -0.517407, 0.97888, -0.456168, -0.522522 ],
+            "mp2_dipole_moment": [ 0.28774, 0.4311, -0.46572 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    },
+    {
+        "schema_name": "qc_schema_output",
+        "schema_version": 1,
+        "qcjson_creator_version": "0.2.0",
+        "provenance": {
+            "creator": "ORCA",
+            "version": "4.2.0"
+        },
+        "molecule": {
+            "geometry": [[1.013436, 0.129075, -0.822625], [1.904536, 0.394475, -0.564425], [1.106636, -0.806925, -1.133025], [-1.119364, -0.129025, 0.806775], [-1.042164, 0.345375, 1.643375], [-0.287464, 0.066275, 0.305675]],
+            "symbols": [ "O", "H", "H", "O", "H", "H" ]
+        },
+        "molecular_charge": 0,
+        "molecular_multiplicity": 1,
+        "name": "6h2o.temelso.etal.dset.2h2o-orca.engrad-mp2.augccpvtz-0.to.49",
+        "atomic_numbers": [8, 1, 1, 8, 1, 1],
+        "n_electrons": 20,
+        "driver": "gradient",
+        "return_result": [[-0.016047251893074082, 0.04246271293535235, 0.02072130048941238], [0.0032944729364083204, 0.0032960981008753904, 0.0022161385179848853], [0.002264250945114655, -0.04564572982493766, -0.014763277477782555], [-0.018630583094310562, -0.00638069805389674, 0.004255946691292675], [-0.001442598026182055, 0.00371780938281881, 0.009242744961235725], [0.03056170913204372, 0.00254980745978785, -0.021672834284881867]],
+        "model": {
+            "method": "MP2",
+            "basis": "aug-cc-pVTZ"
+        },
+        "keywords": {
+            "scf_convergence_tolerance": "Tight",
+            "frozen_core": true,
+            "hf_type": "RHF",
+            "scf_grid_level": 2,
+            "frozen_electrons": 4,
+            "final_grid_level": 2
+        },
+        "properties": {
+            "scf_total_energy": -152.11926891000002,
+            "mp2_total_energy": -152.662965367,
+            "mp2_correlation_energy": -0.543696453,
+            "return_energy": -152.662965367,
+            "calcinfo_nbasis": 184,
+            "calcinfo_nmo": 184,
+            "nuclear_repulsion_energy": 37.74360928,
+            "scf_one_electron_energy": -284.91062698,
+            "scf_two_electron_energy": 95.04774879,
+            "mulliken_charges": [ -0.453483, 0.245088, 0.208295, -0.46148, 0.252387, 0.209194 ],
+            "loewdin_charges": [ 0.988463, -0.473019, -0.515642, 0.976151, -0.455316, -0.520637 ],
+            "mp2_dipole_moment": [ 0.28135, 0.42111, -0.45477 ],
+            "alpha_homo_energy": -0.470098,
+            "alpha_homo_lumo_gap_energy": 0.48989,
+            "beta_homo_energy": -0.470098,
+            "beta_homo_lumo_gap_energy": 0.48989
+        },
+        "success": true
+    }
+]
